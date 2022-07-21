@@ -1,4 +1,18 @@
 body{
     background-color: rgb(201, 201, 217);
+    
+}
+body>h1{
+    
+    color: brown;
+    justify-content: center;
+    display:flex
+}
+body>section{
     display:flex;
+    
+    flex-direction: column;
+    align-items: center;
+    
+    
 }

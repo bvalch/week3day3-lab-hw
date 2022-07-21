@@ -6,9 +6,9 @@ from models.shop_list import item_list
 def index():
     return "Hello here be shop of things"
 
-@app.route('/inventory')
+@app.route('/order')
 def inventory():
-    return render_template('index.html',inventory=item_list)
+    return render_template('index.html',order_list=item_list)
 
 @app.route('/order/<index>')
 def order(index):
